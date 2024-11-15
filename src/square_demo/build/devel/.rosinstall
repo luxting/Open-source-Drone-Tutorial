@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/wheeltec/vision_to_mavros/src/square_demo/build/devel/setup.sh

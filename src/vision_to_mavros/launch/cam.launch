@@ -1,0 +1,8 @@
+<launch>
+    <!-- 启动 QRCodeReader 节点 -->
+    <node name="qr_code_reader" pkg="vision_to_mavros" type="qr_send_uart.py" output="screen">
+        <param name="mapping_file" value="$(find your_package_name)/config/qr_code_data.txt"/>
+    </node>
+
+    <node name="laser_change" pkg="vision_to_mavros" type="laser.py" output="screen"/>
+</launch>
