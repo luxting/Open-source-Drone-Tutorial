@@ -1,0 +1,6 @@
+<launch>
+    <!-- 启动 QRCodeReader 节点 -->
+    <node name="qr_code_reader" pkg="square_demo" type="qr_send_uart.py" output="screen"/>
+
+    <node name="laser_change" pkg="square_demo" type="laser.py" output="screen"/>
+</launch>
