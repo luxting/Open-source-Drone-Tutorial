@@ -4,12 +4,33 @@
 src : 代码
 # **引言**
 作者是一名大四学生，参加大学生无人机相关赛事已经有两年了，这两年的学习路程苦于没有总揽性的学习规划走了不少弯路，所以决定在打完所有比赛后出一个无人机的学习教程。旨在让感兴趣的同学能够更好地入门。
+>作者学业繁忙，会在空闲时间慢慢更新该仓库
 ## 基础知识
 ### Linux
 无人机的相关代码都是在Linux系统上实现的，所以Linux操作系统是机器人工程师的基本功。这一部分直接去B站找相关的教学视频粗略学习即可
 ### ROS
 ROS是一个做机器人必不可少的元操作系统，他一般在Linux系统下使用，这里推荐B站赵虚左老师的课程
-[https://www.bilibili.com/video/BV1Ci4y1L7ZZ/?share_source=copy_web&vd_source=e397b600513156b0a277ca7978233795](url)
-### 从无人机仿真开始
+[链接](https://www.bilibili.com/video/BV1Ci4y1L7ZZ/?share_source=copy_web&vd_source=e397b600513156b0a277ca7978233795)
 
+在视频学习中你将会学习到虚拟机，ubuntu系统和ROS的基础操作。
+## 从无人机仿真开始
+无人机是一个极其烧钱的东西，我们用来参加电赛的无人机制作成本将近1万元，加上平时炸机的损耗，费用是惊人的。大多数人止步于此，但是我们可以先从仿真做起，等领略过无人机的魅力后再组装无人机不迟。
+### 无人机仿真平台
+仿真平台我推荐肖坤老师的XTDrone
+```
+https://gitee.com/robin_shaun/XTDrone.git
+```
+## 无人机组装
+初学者的第一架无人机我推荐浙江大学高飞老师的fast-drone-250。理由是小飞机的安全性比较高而且用到的传感器也比较便宜，而且有完整的purchase list和相关的组装视频，学起来简单易上手。也为之后学习路径规划做铺垫。
+
+
+这是相关视频
+
+[【【完结】从0制作自主空中机器人 | 开源 | 浙江大学Fast-Lab】 ](https://www.bilibili.com/video/BV1WZ4y167me/?share_source=copy_web&vd_source=e397b600513156b0a277ca7978233795)
+
+这是项目的仓库
+
+```
+https://github.com/ZJU-FAST-Lab/Fast-Drone-250.git
+```
 
