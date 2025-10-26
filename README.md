@@ -34,3 +34,14 @@ https://gitee.com/robin_shaun/XTDrone.git
 https://github.com/ZJU-FAST-Lab/Fast-Drone-250.git
 ```
 
+无人机的相关基础知识
+
+[【无人机教程】从零开始学习无人机原理及组装】 ]( https://www.bilibili.com/video/BV1bE411u7nv/?share_source=copy_web)
+
+无人机在室内往往接收不到GPS信号，一般使用激光slam算法，或者视觉slam算法
+
+我们的飞机搭配的是mid360激光雷达与Fast-lio算法
+
+```
+https://github.com/hku-mars/FAST_LIO.git
+```
